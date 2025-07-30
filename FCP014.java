@@ -5,11 +5,11 @@ public class FCP014{
 	int a=scan.nextInt();
 	int b=scan.nextInt();
 	int c=scan.nextInt();
-	if(a>b){
-	System.out.println(a);}
-	else if(b>c){
-	System.out.println(b);}
-	else{
-	System.out.println(c);}
+	 if (a >= b && a >= c){
+         System.out.println(a);}
+         else if (b >= a && b >= c){
+         System.out.println(b);}
+         else {
+            System.out.println(c);}
 }
 }
